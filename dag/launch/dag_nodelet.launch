@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="nodelet" type="nodelet" args="manager" name="dag_nodelet_manager" output="screen" />
+    <node pkg="nodelet" type="nodelet" args="load dag_nodelet_ns/DagNodeletClass dag_nodelet_manager" name="node1" output="screen" />
+    <node pkg="nodelet" type="nodelet" args="load dag_nodelet_ns/DagNodeletClass dag_nodelet_manager" name="node2" output="screen" />
+    <node pkg="nodelet" type="nodelet" args="load dag_nodelet_ns/DagNodeletClass dag_nodelet_manager" name="node3" output="screen" />
+</launch>

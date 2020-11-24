@@ -1,0 +1,5 @@
+int32 num_of_tasks
+int32 num_of_processors
+std_msgs/Int32MultiArray comp_cost
+std_msgs/Int32MultiArray rate
+std_msgs/Int32MultiArray data
